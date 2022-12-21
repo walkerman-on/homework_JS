@@ -15,4 +15,4 @@ const createVisitor = (name, age, number) => {
 //   return { name: params[0], age: params[1], number: params[2] }
 // }
 
-console.log('createVisitor', createVisitor('Иван Иванович', 24, '89005553535'))
+console.log('createVisitor', createVisitor('Иван Иванович', 24, '89005553535', 2232, 'skjjhkjd', 'dkjdkjhj'))

@@ -13,7 +13,7 @@ const cards = {
   10: '10',
   11: 'Jack',
   12: 'Queen',
-  13: 'King',
+  13: 'King'
 }
 
 const testData = [5, 11, 12, 13, 10];
@@ -21,3 +21,5 @@ const testData = [5, 11, 12, 13, 10];
 const getConvertedCardName = (arr) => arr.map(item => cards[item])
 
 console.log('getConvertedCardName', getConvertedCardName(testData))
+
+// написать самому решение через if
