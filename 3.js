@@ -11,22 +11,4 @@ const odds = (arr) => {
   return filteredArray.length
 }
 
-const getOddNums = (arr) => {
-  return arr.reduce((sum, item) => {
-    if (item % 2 === 1) {
-      ++sum
-    }
-    return sum
-  }, 0)
-}
-
-// const getOddNums = (arr) =>
-//   arr.reduce((sum, item) => {
-//     if (item % 2 === 1) {
-//       ++sum
-//     }
-//     return sum
-//   }, 0)
-
-console.log('getOddNums', getOddNums(testData))
-console.log('odds', odds(testData))
+console.log(odds(testData))
